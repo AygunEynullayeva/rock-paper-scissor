@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color:#7A0B7C;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.user{
+  display: flex;
+ 
+ 
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+   
+    
+}
+.kart{
+    width: 200px;
+    height: 200px;
+    border: 3px solid  #E2BEF1;
+    cursor: pointer;
+}
+.puan{
+    display: flex;
+    justify-content: space-around;
+    width: 96%;
+    height: 100px;
+    
+}
+h1{
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    color: white;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+}
+.qayci{
+    background-image: url(./qayci.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    object-fit: cover;
+}
+.kagiz{
+    background-image: url(./kagiz.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    object-fit: cover;
+}
+.dash{
+    background-image: url(./dash.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    object-fit: cover;
+}
+.hello{
+    display: flex;
+    justify-content: space-around;
+}
+.kagiz:hover,.qayci:hover,.dash:hover{
+    transform: scale(1.1);
+    transition: 1s all;
+    background-size: 120% 120%;
+    background-position: center;
+    transition: 1s all;
+}
+.secilen{
+    border: 5px solid #0C4E33;
+}
+.secim{
+    border: 5px solid #F70000;
+}
